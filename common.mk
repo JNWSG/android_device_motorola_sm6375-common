@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.soundtrigger@2.3-impl \
     audioadsprpcd \
     audio.bluetooth.default \
@@ -121,10 +121,6 @@ PRODUCT_COPY_FILES += \
 
 # Blurs
 TARGET_ENABLE_BLUR := true
-
-# Bluetooth
-PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.1-impl \
 
 # Boot control
 PRODUCT_PACKAGES += \
