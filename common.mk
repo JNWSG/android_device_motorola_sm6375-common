@@ -210,6 +210,12 @@ PRODUCT_PACKAGES += \
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay-service.sdm
+
+$(call soong_config_set,livedisplay_sdm,enable_dm,false)
+
 # IRQ balancer config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
