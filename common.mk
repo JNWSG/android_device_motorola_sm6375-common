@@ -178,6 +178,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
