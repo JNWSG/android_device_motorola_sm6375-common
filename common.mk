@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     DeviceAsWebcamCommon \
     FrameworksResCommon_Sys \
     SystemUIResCommon_Sys \
+    Launcher3ResCommon \
     TelephonyResCommon_Sys \
     WifiResCommon_Sys \
     FrameworksResTarget \
