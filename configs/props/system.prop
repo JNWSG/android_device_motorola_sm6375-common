@@ -61,3 +61,7 @@ ro.vendor.qti.va_aosp.support=1
 
 #Disable MTE Async for system server
 arm64.memtag.process.system_server=off
+
+# ScrollOptimizer
+persist.sys.perf.scroll_opt = true
+persist.sys.perf.scroll_opt.heavy_app = 1
