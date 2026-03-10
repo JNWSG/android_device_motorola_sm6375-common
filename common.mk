@@ -168,10 +168,6 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 endif
 
-# Framework detect
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
-
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
