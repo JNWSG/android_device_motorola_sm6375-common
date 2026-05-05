@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon_Sys \
     WifiResCommon_Sys \
     FrameworksResTarget \
+    LineageApertureAppCommon \
     WifiResTarget \
     NcmTetheringOverlay \
     EuiccOverlayMotoHoli
