@@ -299,8 +299,6 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := holi
 
 # Power
-TARGET_PROVIDES_POWERHAL := true
-
 PRODUCT_PACKAGES += \
     android.hardware.power-service.pixel-libperfmgr \
     libqti-perfd-client
