@@ -56,6 +56,10 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sm6375
 TARGET_KERNEL_CONFIG := vendor/sedona_defconfig
 BOARD_USES_VENDOR_DLKMIMAGE := true
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := holi
+
 # A/B
 AB_OTA_UPDATER := true
 
