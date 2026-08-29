@@ -23,14 +23,13 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Additional
 $(call inherit-product-if-exists, vendor/motorola/additional/additional-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
+# Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     DeviceAsWebcamCommon \
     FrameworksResCommon_Sys \
+    SettingsResCommon \
     SystemUIResCommon_Sys \
     Launcher3ResCommon \
     TelephonyResCommon_Sys \
