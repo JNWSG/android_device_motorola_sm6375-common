@@ -176,6 +176,9 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Camera extension for torch slider
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.motorola_sm6375)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \

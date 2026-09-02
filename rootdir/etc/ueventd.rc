@@ -526,3 +526,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/fingerprint/fpc1020 irq_cnt    0440     system    system
 /sys/class/fingerprint/fpc1020 dev_enable 0220     system    system
 /sys/class/fingerprint/fpc1020 vendor     0444     system    system
+
+# Torch control
+/sys/devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@0 torch_brightness 0660 cameraserver camera
+/sys/devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@2 torch_brightness 0660 cameraserver camera
