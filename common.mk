@@ -27,7 +27,6 @@ $(call inherit-product-if-exists, vendor/motorola/additional/additional-vendor.m
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    DeviceAsWebcamCommon \
     FrameworksResCommon_Sys \
     SettingsResCommon \
     SystemUIResCommon_Sys \
